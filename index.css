@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
+
+:root {
+  font-family: 'Cairo', 'Tahoma', 'Arial', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 10% 10%, #d9efe8 0%, transparent 32%),
+    radial-gradient(circle at 92% 15%, #c9f1eb 0%, transparent 28%),
+    radial-gradient(circle at 15% 85%, #e5f7f2 0%, transparent 26%),
+    #f5f8fb;
+  color: #1f2d33;
+}
+
+#root {
+  min-height: 100vh;
+}
